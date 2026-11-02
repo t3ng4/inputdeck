@@ -18,6 +18,12 @@
 
 ---
 
+<p align="center">
+  <img src="docs/screenshots/mappings.png" width="49%" alt="Mappings tab: devices on the left, the selected preset's mappings on the right">
+  <img src="docs/screenshots/auto-switch.png" width="49%" alt="Auto-switch tab: rules with a window-visible condition and the live switching log">
+</p>
+<p align="center"><sub>Left: remap buttons per device. Right: auto-switch presets per program, here only while the game's window is on screen.</sub></p>
+
 ## What it does
 
 * **Pick a device, press a key, say what it should do.** Keyboards, mice, gamepads and headset/media
