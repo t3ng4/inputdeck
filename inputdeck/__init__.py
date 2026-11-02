@@ -1,0 +1,5 @@
+"""InputDeck: hotkeys, macro recording and per-app presets for Linux input devices."""
+__version__ = "0.4.0"
+__author__ = "t3ng4"
+__author_url__ = "https://github.com/t3ng4"
+__url__ = "https://github.com/t3ng4/inputdeck"

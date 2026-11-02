@@ -1,0 +1,49 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to improve InputDeck. The more of the fields below you fill in, the faster this can be fixed.
+  - type: input
+    id: version
+    attributes:
+      label: InputDeck version
+      description: Shown in the window title, or run `inputdeck --version`.
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Distribution and desktop
+      placeholder: "e.g. Garuda Linux (KDE Plasma 6, Wayland)"
+    validations:
+      required: true
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Remapping engine in use
+      options: [input-remapper daemon, Built-in engine (experimental), Not sure]
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: Output of `inputdeck --check`
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Steps to reproduce help a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: "Use the Logs menu in InputDeck (Engine log / Auto-switch & app log → Copy all), or the files in `~/.local/share/inputdeck/`. Remove anything private."
+      render: text

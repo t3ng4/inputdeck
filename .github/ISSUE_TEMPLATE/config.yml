@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation help
+    url: https://github.com/t3ng4/inputdeck/blob/main/docs/INSTALL.md#troubleshooting
+    about: Please check the troubleshooting section first.
